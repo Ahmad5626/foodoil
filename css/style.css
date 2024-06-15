@@ -3149,7 +3149,11 @@ textarea.form-control {
     .logo{
       width: 19%;
     }
-
+@media(max-width:768px){
+  .logo {
+    width: 40%;
+}
+}
     .logo img{
       width: 100%;
     }
